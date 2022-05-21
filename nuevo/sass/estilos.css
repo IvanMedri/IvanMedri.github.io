@@ -3,20 +3,39 @@ header {
   background: url("../img/header.jpg");
   background-size: cover;
   background-position: center;
-  height: 500px;
-  vertical-align: center; }
+  position: relative;
+  height: 700px;
+  background-attachment: fixed; }
 
-h1 {
-  font-size: 40px;
+.menu {
+  text-align: center;
+  width: 100%; }
+  .menu a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin: 40px 20px; }
+  .menu a:hover {
+    text-decoration: underline; }
+
+.textos {
+  text-align: center;
+  width: 100%;
+  color: white;
   position: absolute;
-  margin-top: 100px;
-  margin-left: 100px; }
+  margin-top: -52px;
+  top: 50%; }
+  .textos .nombre {
+    margin-left: -100px;
+    font-size: 50px; }
 
-main {
+.main {
   background: black;
   padding: 20px;
   margin: 20px;
-  height: 600px; }
+  height: 600px;
+  font-size: 70px; }
 
 footer {
   background: blueviolet;
