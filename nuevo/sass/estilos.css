@@ -1,19 +1,16 @@
-.header {
-  background: green;
-  padding: 20px;
-  margin: 20px;
-  height: 600px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-end;
-  align-items: flex-end; }
+header {
+  width: 100%;
+  background: url("../img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  vertical-align: center; }
 
-.caja {
-  background: violet;
-  padding: 20px;
-  margin: 20px;
-  width: 100px; }
+h1 {
+  font-size: 40px;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 100px; }
 
 main {
   background: black;
