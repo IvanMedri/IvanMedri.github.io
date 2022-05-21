@@ -1,16 +1,19 @@
-header {
+.header {
   background: green;
   padding: 20px;
   margin: 20px;
   height: 600px;
   display: flex;
-  flex-wrap: nowrap; }
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-end; }
 
 .caja {
   background: violet;
   padding: 20px;
   margin: 20px;
-  width: 40%; }
+  width: 100px; }
 
 main {
   background: black;
