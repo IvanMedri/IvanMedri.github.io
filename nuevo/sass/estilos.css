@@ -4,7 +4,8 @@ header {
   background-size: cover;
   background-position: center;
   height: 450px;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  box-shadow: 5px 5px 10px; }
   header .caja {
     width: 30%; }
   header .contenedor {
@@ -12,9 +13,10 @@ header {
     justify-content: space-between;
     width: 100%;
     flex-direction: row;
-    align-items: center; }
+    align-items: center;
+    overflow: hidden; }
   header .logo {
-    width: 100%; }
+    width: 90%; }
   header .menu {
     text-align: center;
     width: 100%;
@@ -27,31 +29,30 @@ header {
     margin: 20px; }
   header a:hover {
     text-decoration: underline; }
-
-.textos {
-  color: white;
-  width: 70%;
-  position: relative; }
-  .textos .nombre {
+  header .textos {
+    color: white;
+    width: 70%;
+    position: relative; }
+  header .nombre {
     font-size: 60px;
     font-family: "Oswald";
     font-weight: 400;
     font-style: italic;
     padding: 0; }
-  .textos .nombre2 {
+  header .nombre2 {
     font-family: "Oswald";
     font-weight: 300;
     margin-left: 40px;
     font-size: 40px;
     font-style: italic;
     padding: 0; }
-  .textos .nombre3 {
+  header .nombre3 {
     font-family: "Oswald";
     font-weight: 200;
     font-size: 30px;
     margin-left: 80px;
     padding: 10px; }
-  .textos span {
+  header span {
     font-family: sans-serif;
     font-size: 55px; }
 
