@@ -6,31 +6,33 @@ header {
   position: relative;
   height: 500px;
   background-attachment: fixed; }
+  header .caja {
+    height: 100%;
+    width: 50%; }
+  header .contenedor {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap; }
   header .logo {
-    height: 800px; }
-
-.menu {
-  text-align: center;
-  width: 100%;
-  font-family: "Oswald";
-  left: 100px; }
-  .menu a {
+    max-height: 400px; }
+  header .menu {
+    text-align: center;
+    width: 100%;
+    font-family: "Oswald"; }
+  header a {
     text-decoration: none;
     font-size: 25px;
-    color: white;
-    display: inline-block;
-    margin: 40px 40px;
-    padding: 20px; }
-  .menu a:hover {
+    color: white; }
+  header a:hover {
     text-decoration: underline; }
 
 .textos {
   text-align: center;
   width: 100%;
-  color: white;
-  position: absolute;
-  margin-top: -60px;
-  top: 50%; }
+  color: white; }
   .textos .nombre {
     font-size: 80px;
     font-family: sans-serif;
