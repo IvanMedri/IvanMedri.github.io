@@ -3,53 +3,57 @@ header {
   background: url("../img/header.jpg");
   background-size: cover;
   background-position: center;
-  position: relative;
-  height: 500px;
+  height: 450px;
   background-attachment: fixed; }
   header .caja {
-    height: 100%;
-    width: 50%; }
+    width: 30%; }
   header .contenedor {
     display: flex;
+    justify-content: space-between;
     width: 100%;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap; }
+    align-items: center; }
   header .logo {
-    max-height: 400px; }
+    width: 100%; }
   header .menu {
     text-align: center;
     width: 100%;
-    font-family: "Oswald"; }
+    font-family: "Oswald";
+    font-weight: 300; }
   header a {
     text-decoration: none;
     font-size: 25px;
-    color: white; }
+    color: white;
+    margin: 20px; }
   header a:hover {
     text-decoration: underline; }
 
 .textos {
-  text-align: center;
-  width: 100%;
-  color: white; }
+  color: white;
+  width: 70%;
+  position: relative; }
   .textos .nombre {
-    font-size: 80px;
-    font-family: sans-serif;
+    font-size: 60px;
+    font-family: "Oswald";
     font-weight: 400;
-    font-style: italic; }
+    font-style: italic;
+    padding: 0; }
   .textos .nombre2 {
     font-family: "Oswald";
     font-weight: 300;
+    margin-left: 40px;
     font-size: 40px;
-    font-style: italic; }
+    font-style: italic;
+    padding: 0; }
   .textos .nombre3 {
     font-family: "Oswald";
     font-weight: 200;
-    font-size: 30px; }
+    font-size: 30px;
+    margin-left: 80px;
+    padding: 10px; }
   .textos span {
     font-family: sans-serif;
-    font-weight: 400; }
+    font-size: 55px; }
 
 .main {
   background: black;
