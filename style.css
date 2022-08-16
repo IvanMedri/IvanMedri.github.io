@@ -1,0 +1,46 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	height: 100%;
+	background: black;
+}
+
+main{
+	height: 100%;
+}
+
+main .page{
+	position: fixed;
+	left: 204px;
+	width: 100%;
+}
+
+main .barralateral{
+	overflow: scroll;
+	overflow-x: hidden;
+	background: yellow;
+	padding: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 204px;
+	}
+
+main .menu{
+	background: red;
+	height: 50px;
+	width: 100%;
+	top: 0;
+	right: 0;
+	}
+
+main .contenido{
+	margin-top: 50px;
+	color: white;
+	}
