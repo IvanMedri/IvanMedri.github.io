@@ -17,7 +17,9 @@ main{
 main .page{
 	position: fixed;
 	left: 204px;
-	width: 100%;
+	width: 100%-204px;
+	padding: 0px;
+	margin: 0px;
 }
 
 main .barralateral{
@@ -36,11 +38,20 @@ main .menu{
 	background: red;
 	height: 50px;
 	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;
 	top: 0;
 	right: 0;
 	}
 
 main .contenido{
+	box-sizing: border-box;
+	display:  block;
+	background:  green;
+	padding-left: 10%;
+	padding-right: 10%;
+	width: 100%;
 	margin-top: 50px;
 	color: white;
+	word-wrap: break-word;
 	}
