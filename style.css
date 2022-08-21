@@ -6,52 +6,41 @@
 }
 
 body{
-	height: 100%;
 	background: black;
 }
 
 main{
 	height: 100%;
-}
 
-main .page{
-	position: fixed;
-	left: 204px;
-	width: 100%-204px;
-	padding: 0px;
-	margin: 0px;
 }
 
 main .barralateral{
-	overflow: scroll;
-	overflow-x: hidden;
+	float: left;
 	background: yellow;
-	padding: 0;
-	position: fixed;
-	top: 0;
-	left: 0;
-	height: 100%;
 	width: 204px;
+	height:  100%;
+	overflow-y: scroll;
+
 	}
 
+
+main .page{
+	float:  left;
+	height:  100%;
+	width: calc(100% - 204px);
+	overflow-y: scroll;
+}	
+
 main .menu{
+	position: sticky;
+	top: 0px;
 	background: red;
 	height: 50px;
-	width: 100%;
-	padding-left: 10%;
-	padding-right: 10%;
-	top: 0;
-	right: 0;
 	}
 
 main .contenido{
-	box-sizing: border-box;
-	display:  block;
-	background:  green;
+	background:  black;
+	color: white;
 	padding-left: 10%;
 	padding-right: 10%;
-	width: 100%;
-	margin-top: 50px;
-	color: white;
-	word-wrap: break-word;
 	}
