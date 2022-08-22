@@ -1,4 +1,17 @@
 
+
+/*Variable declaration*/
+:root {
+  --C1: #363636;
+  --C2: #e5e5e5;
+  --C3: #ffffff;
+  --C4: #242f40;
+  --C5: #cca43b;
+}
+
+
+
+
 *{
 	padding: 0;
 	margin: 0;
@@ -6,21 +19,22 @@
 }
 
 body{
-	background: black;
+	background: var(--C3);
 }
 
 main{
 	height: 100%;
 	overflow-y: hidden;
+	
 }
 
 main .barralateral{
+	padding-top: 10px;
 	float: left;
-	background: yellow;
+	background: var(--C2);
 	width: 204px;
 	height:  100%;
 	overflow-y: scroll;
-
 	}
 
 
@@ -29,18 +43,45 @@ main .page{
 	height:  100%;
 	width: calc(100% - 204px);
 	overflow-y: scroll;
+
 }	
 
 main .menu{
 	position: sticky;
 	top: 0px;
-	background: red;
+	background: var(--C1);
 	height: 50px;
-	}
+	box-shadow: 0px 5px 5px #888888;
+
+}
 
 main .contenido{
-	background:  black;
-	color: white;
+	padding-top: 10px;
+	background:  var(--C3);
 	padding-left: 10%;
 	padding-right: 10%;
 	}
+
+
+
+
+
+
+
+main .barralateral::-webkit-scrollbar {
+	background: var(--C2);
+
+}
+
+main .barralateral::-webkit-scrollbar-thumb {
+	background: var(--C1);
+
+}
+
+main .page::-webkit-scrollbar {
+	background: var(--C2);
+}
+
+main .page::-webkit-scrollbar-thumb {
+	background: var(--C1);
+}
